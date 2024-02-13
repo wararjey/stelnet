@@ -39,7 +39,7 @@ jobs:
                   ./gradlew release
 
             - name: Publish Release on GitHub
-              uses: "ncipollo/release-action@v1"
+              uses: "ncipollo/release-action@v2"
               with:
                   name: ${{ env.VERSION }}
                   tag: ${{ env.VERSION }}
