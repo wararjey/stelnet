@@ -19,7 +19,7 @@ jobs:
             # Checks-out repository under $GITHUB_WORKSPACE, so your job can access it
             # GitHub Actions by default doesn't check out tags, so make sure those are included
             - name: Checkout
-              uses: actions/checkout@v2
+              uses: actions/checkout@v3
               with:
                   lfs: true
 
@@ -39,7 +39,7 @@ jobs:
                   ./gradlew release
 
             - name: Publish Release on GitHub
-              uses: "ncipollo/release-action@v2"
+              uses: "ncipollo/release-action@v1"
               with:
                   name: ${{ env.VERSION }}
                   tag: ${{ env.VERSION }}
