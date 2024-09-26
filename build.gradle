@@ -43,8 +43,8 @@ task installDependencies(type: Sync) {
 
 // project level config
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_7
-    targetCompatibility = JavaVersion.VERSION_1_7
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 // where to find sources
@@ -64,7 +64,7 @@ build {
 // compile time dependencies
 dependencies {
     implementation "jaghaimo:starsector-api:0.96a-RC10@starfarer.api.jar"
-    zipped "Lukas22041:LunaLib:1.8.4@LunaLib.zip"
+    zipped "Lukas22041:LunaLib:1.8.5@LunaLib.zip"
     implementation files({ tasks.installDependencies.extractedJars })
 
     // game dependencies
@@ -77,8 +77,8 @@ dependencies {
     implementation group: 'org.codehaus.janino', name: 'janino', version: '3.0.7'
 
     // lombok
-    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.28'
-    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.28'
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.30'
 }
 
 // custom tasks
