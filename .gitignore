@@ -12,4 +12,6 @@ package-lock.json
 # Local copies of mod structure (dev env)
 /data
 /graphics
+/mod_info.json
 /stelnet.jar
+/stelnet.version
