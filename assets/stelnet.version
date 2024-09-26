@@ -5,8 +5,8 @@
     "modVersion": {
         "major": 3,
         "minor": 1,
-        "patch": 5
+        "patch": 6
     },
-    "directDownloadURL": "https://github.com/wararjey/stelnet/releases/download/3.1.5/stelnet-3.1.5.zip",
-    "changelogURL": "https://raw.githubusercontent.com/wararjey/stelnet/3.1.5/changelog.txt"
+    "directDownloadURL": "https://github.com/wararjey/stelnet/releases/download/3.1.6/stelnet-3.1.6.zip",
+    "changelogURL": "https://raw.githubusercontent.com/wararjey/stelnet/3.1.6/changelog.txt"
 }
