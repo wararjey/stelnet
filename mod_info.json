@@ -1,0 +1,17 @@
+{
+    "id": "stelnet",
+    "name": "Stellar Networks",
+    "author": "Jaghaimo",
+    "utility": true,
+    "version": "3.1.5",
+    "description": "A collection of intel boards for Starsector",
+    "gameVersion": "0.97a-RC11",
+    "modPlugin": "stelnet.StelnetMod",
+    "dependencies": [
+        {
+            "id": "lunalib",
+            "name": "LunaLib"
+        }
+    ],
+    "jars": ["stelnet.jar"]
+}
